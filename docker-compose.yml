@@ -1,0 +1,12 @@
+services:
+  app:
+    image: node:22
+    container_name: music-player-dev
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "1420:1420"
+      - "5173:5173"
+    stdin_open: true
+    tty: true
