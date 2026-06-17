@@ -1,6 +1,11 @@
+<script>
+    import CustomCursor from "../lib/components/Layout/CustomCursor.svelte";
+
+</script>
 
 <div class="app-container">
   <!-- Background effects layer -->
+   <CustomCursor />
   <div class="background-effects" aria-hidden="true">
     <!-- Ambient orbs -->
     <div class="orb orb-1"></div>
