@@ -13,10 +13,13 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@blossom-carousel/svelte": "^1.1.1",
+    "@tailwindcss/vite": "^4.3.1",
     "@tauri-apps/api": "^2",
     "@tauri-apps/plugin-opener": "^2",
     "better-sqlite3": "^12.11.1",
-    "drizzle-orm": "^0.45.2"
+    "drizzle-orm": "^0.45.2",
+    "tailwindcss": "^4.3.1"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.6",
